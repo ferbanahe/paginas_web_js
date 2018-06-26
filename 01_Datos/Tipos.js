@@ -39,10 +39,10 @@ let oLibro = {
     titulo: 'LOTR',
     loTengo: true,
     autor : {
-        nombre 'John R. R.',
-        apellido 'Tolkien',
+        nombre: 'John R. R.',
+        apellido: 'Tolkien',
         isVivo: true
-    }
+    },
     indice: 1
 }
 oLibro.autor.isVivo = false

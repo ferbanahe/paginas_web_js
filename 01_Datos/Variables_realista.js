@@ -12,7 +12,10 @@ function main1() {
     let total = 12
     let incremento = 10
     console.log(calcular(total, incremento )) // 22
-    console.log(total)  // 12 
+    console.log(total)  // 12
+    let mensaje = 'El IVA vale'
+    let iva = 14 
+    console.log(mensaje, iva)  // 14
 }
 main1()
 
@@ -45,7 +48,7 @@ function disminuir3() {
     local = 2
     const LOCAL = 4 // aquí no puedo hacer lo mismo porque al ser const sería de principio undefined
     local -= LOCAL
-    console.log(local) // -2
+    console.log('el resultado es', local) // -2
     console.log(LOCAL) // 4
 }
 
