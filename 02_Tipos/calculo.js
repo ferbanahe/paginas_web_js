@@ -5,8 +5,9 @@ function sumar (a, b) {
     else {resultado = Number(a) + Number(b) //es un casting forzado por nosotros. Los casting son temporales durante la operación, después dejan de serlo. El resultado seria 6 de tipo number, al tener casting que es momentaneo.
         // resultado = a + String(b)
         // resultado2 = a + b // aquí será 24 y de tipo string, al no tener casting tambien se puede escribir así: resultado = +a +ab
-        resultado = parseFloat(a) + parseFloat(b)
-    return resultado}
+        // resultado = parseFloat(a) + parseFloat(b)
+    }
+    return resultado
 }
 
 function restar(a,b) {
