@@ -22,7 +22,7 @@ function asignaciones () {
     x %= 2
 }
 
-function esPar (num) {
+/*function esPar (num) {
     let isPar = true
     // compruebo si NO eres par
     // if (num % 2 != 0) {
@@ -39,6 +39,27 @@ function esPar2 (num) {
         isPar = true
     } 
     return isPar
+}*/
+function esPar (num) {
+	let a = 0
+	let isPar = true
+	if (typeof num != 'number'|| (num % 2)) {
+		isPar = false
+	} 
+	return isPar
+}
+
+function esPar2 (num) {
+	let isPar = false
+	// compruebo si SI eres par: num % 2 == 0
+	if (!num % 2) {
+		isPar = true
+	} 
+	return isPar
+}
+
+function esParFinal (num) {
+	return (typeof num == 'number' && num % 2 == 0) ? true : false
 }
 
 
@@ -46,10 +67,17 @@ function esPar2 (num) {
 // incrementos()
 // asignaciones()
 
-//console.log('22 es par?', esPar(22))
-//console.log('25 es par?', esPar(25))
 
-//falsy: son los elemntos que al hacer casting a boolean te devuelven false. 
+console.log('22 es par?', esParFinal(22))
+console.log('25 es par?', esParFinal(25))
+console.log('0 es par?', esParFinal(0))
+console.log('Pepe es par?', esParFinal('Pepe'))
+console.log('"" es par?', esParFinal(''))
+console.log(' es par?', esParFinal())
+console.log('true es par?', esParFinal(true))
+console.log('false es par?', esParFinal(false))
+
+/*falsy: son los elemntos que al hacer casting a boolean te devuelven false. 
 console.log(Boolean(false))
 console.log(Boolean(0))
 console.log(Boolean(''))
@@ -64,4 +92,4 @@ let b = 0
 if (b != 0) {
     a = 'Pepe'
 }
-console.log(a)
+console.log(a)*/
