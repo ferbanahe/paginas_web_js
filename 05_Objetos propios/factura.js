@@ -97,4 +97,5 @@ factura1.pintaDatos = function (oDatos = this) {
     }
 }
 
-factura1.mostrar()
+// factura1.mostrar()
+console.log(factura1)
