@@ -1,11 +1,9 @@
 // THIS -> objeto global
 
 /* console.log(this)
-
 function prueba() {
     console.log(this)
 }
-
 prueba() */
 
 // THIS -> objeto
@@ -16,15 +14,17 @@ prueba() */
         console.log(this)
     }
 }
-
 o.mostrar() */
 
 // THIS -> el objeto creado
 
-function CosaRara() {
+function cosaRara() {
     console.log(this)
 }
 
-// CosaRara()
+//cosaRara()
 
-new CosaRara()
+new cosaRara()
+
+// THIS -> quien yo decida
+// call() / apply()
