@@ -24,8 +24,8 @@ class Apps{
 }
 
 
-document.addEventListener('DOMContentLoaded', 
-        () =>  new Apps() )
+document.addEventListener('DOMContentLoaded',
+        () =>  {new Apps()} )
 
 // Seria lo mismo que 
 // document.addEventListener('DOMContentLoaded', 
