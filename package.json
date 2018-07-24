@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/ferbanahe/paginas_web_js.git"
   },
-  "keywords": ["JavaScript", "ECMAscript"],
+  "keywords": [
+    "JavaScript",
+    "ECMAscript"
+  ],
   "author": "Fernando",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ferbanahe/paginas_web_js/issues"
   },
-  "homepage": "https://github.com/ferbanahe/paginas_web_js#readme"
+  "homepage": "https://github.com/ferbanahe/paginas_web_js#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
 }
